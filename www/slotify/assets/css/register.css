@@ -1,0 +1,145 @@
+:root {
+  --white: #fafafa;
+  --black: #333333;
+  --green: #1db954;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.register {
+  color: var(--black);
+}
+
+.login-background {
+  background: url('../images/login-background.jpg') center center no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  background-attachment: fixed;
+}
+
+.login-wrapper {
+  display: grid;
+  grid-template-columns: 290px auto;
+  padding: 50px;
+}
+
+.login-wrapper #inputContainer {
+  border-right: 2px solid var(--black);
+  padding-right: 35px;
+}
+
+.login-wrapper .content {
+  padding-left: 35px;
+}
+
+.login-wrapper .content h1 {
+  font-size: 55px;
+  color: var(--green);
+  line-height: 1;
+}
+
+.login-wrapper .content .tag-line {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 25px 0;
+}
+
+.login-wrapper h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.login-wrapper input {
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid var(--black);
+  display: block;
+  width: 100%;
+  padding: 7px 0;
+  color: var(--black);
+}
+
+.login-wrapper label {
+  display: block;
+}
+
+.login-wrapper button {
+  background: transparent;
+  border: 2px solid var(--black);
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 25px;
+  color: var(--black);
+  font-weight: 200;
+  text-transform: uppercase;
+  margin: 20px 0;
+  padding: 10px 0;
+}
+
+.login-wrapper button:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: rgb(31, 31, 31);
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: rgb(31, 31, 31);
+  opacity: 1;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: rgb(31, 31, 31);
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(31, 31, 31);
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(31, 31, 31);
+}
+
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: rgb(31, 31, 31);
+}
+
+.has-account-text {
+  text-align: center;
+  font-weight: 700;
+  font-size: 10px;
+}
+
+.has-account-text:hover {
+  cursor: pointer;
+}
+
+#registerForm,
+#loginForm {
+  display: none;
+}
