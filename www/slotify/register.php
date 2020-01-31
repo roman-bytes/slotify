@@ -24,6 +24,7 @@
   <title>Register for Slotify</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" href="./assets/css/register.css">
+	<script src="https://kit.fontawesome.com/8f9a3ae12e.js" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="./assets/js/register.js"></script>
 </head>
@@ -122,9 +123,9 @@
 			<h1>Get great music, <br/> right now</h1>
 			<div class="tag-line">Listen to loads of songs for free.</div>
 			<ul>
-				<li>Discover music you'll fall in love with</li>
-				<li>Create your own playlist</li>
-				<li>Follow artist to keep up to date</li>
+				<li><i class="fas fa-check"></i>Discover music you'll fall in love with</li>
+				<li><i class="fas fa-check"></i>Create your own playlist</li>
+				<li><i class="fas fa-check"></i>Follow artist to keep up to date</li>
 			</ul>
 		</div>
 	</div>
